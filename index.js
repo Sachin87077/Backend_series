@@ -1,4 +1,5 @@
 //in thisfile we created for mini project  to run script .js change main to script .js in packahedge.json
+const { create } = require('domain');
 const express=require('express');
 const app=express();
 
@@ -47,3 +48,14 @@ app.listen(3000,function(){
 
 
 
+//databases
+//sql in form of tables...no sql is in form of objects
+
+//backend has two swerver oneis applicaion(  evrtything except data) server other is databaseserver
+
+//dtabasse ke ander alg alg type ka dta hoga jise collection khte hain
+//databse->collection->document(kisi ek user ka data)
+//code me                reflected database
+//mongoose.connect          ddatabase create
+//model create              collecion bnta hai
+//CREATE                    document bnta hi 
