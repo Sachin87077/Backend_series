@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 app.use(express.static(path.join(__dirname,'public')));
-//--dirname wioll give path till current folder//above line will givee apth tlill pucblkic by ading public
+//--di current folder//above line will givee apth tlill pucblkic by ading public
 //this whole path will go in  express .satic me mhar request ke liye static file public filder me milegi
 
 
@@ -43,4 +43,7 @@ app.listen(3000,function(){
 //setting up ejs and ejs paages
 //instakk ejs
 //seting ejs as view engine
+
+
+
 
