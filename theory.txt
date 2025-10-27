@@ -1,0 +1,18 @@
+//authentication and autorization thoeru 
+server har baar bhul jats hai ki aap kon ho so hr br login ya apse puchgea apm ho kaun
+so herecomes the concept of ccokies and sesion
+ so if login is cpmlete then te info we ewan tis sent to frontrnd  asstring  saved to browser 
+
+then is further we want some function likw likinh you pictuer aftr login then this string get attched and then go to server
+and aithorize the user and do function he wants 
+thing we will be learnong 
+1 cookie kaise wse tkrte hain
+2 becrypt kasie use kte hain afro password encrytpion
+3 jwt and dta storation in jwt 
+
+
+
+
+
+bcrypt pasword ke encrption ke liye use hota hai so tha in any hacking case apassword is not visible to anyone
+
